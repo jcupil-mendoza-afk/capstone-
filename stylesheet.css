@@ -1,1 +1,402 @@
+.body1{
+   background-image:
+linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+url("https://images.unsplash.com/photo-1516594798947-e65505dbb29d");
 
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+
+margin: 0;
+padding: 0;
+}
+
+.container{
+
+padding: 25px;
+text-align: center;
+background-color: rgba(0,0,0,0.5);
+
+}
+
+.container h1{
+
+font-size: 50px;
+color: #ffcc70;
+
+}
+
+.subtitulo{
+
+font-size: 20px;
+color: #f5f5f5;
+
+}
+
+.nav-links{
+
+display: flex;
+justify-content: center;
+gap: 20px;
+
+list-style: none;
+padding: 15px;
+
+}
+
+.nav-links a{
+
+text-decoration: none;
+color: white;
+font-size: 18px;
+padding: 10px 18px;
+border-radius: 10px;
+background-color: rgba(255,255,255,0.1);
+transition: 0.3s;
+
+}
+
+.nav-links a:hover{
+
+background-color: #ffb347;
+color: black;
+
+}
+
+.hero{
+  text-align: center;
+  padding: 80px 30px;
+
+}
+
+.hero h2{
+  font-size: 40px;
+  color: #ffd700;
+
+}
+
+.hero p{
+  font-size: 20px;
+  line-height: 1.8;
+  max-width: 900px;
+  margin: auto;
+  background-color: rgba(0,0,0,0.4);
+  padding: 20px;
+  border-radius: 15px;
+
+}
+
+.button-menu{
+display: inline-block;
+margin-top: 25px;
+padding: 15px 30px;
+background-color: #ffb347;
+color: black;
+text-decoration: none;
+font-size: 20px;
+border-radius: 12px;
+transition: 0.3s;
+
+}
+
+.button-menu:hover{
+transform: scale(1.05);
+background-color: #ffd700;
+
+}
+
+.info{
+
+display: flex;
+
+justify-content: center;
+
+gap: 25px;
+
+flex-wrap: wrap;
+
+padding: 40px;
+
+}
+
+.card{
+
+width: 300px;
+
+background-color: rgba(0,0,0,0.5);
+
+padding: 20px;
+
+border-radius: 15px;
+
+box-shadow: 0px 4px 15px black;
+
+transition: 0.3s;
+
+}
+
+.card:hover{
+
+transform: translateY(-10px);
+
+}
+
+.card h3{
+
+color: #ffcc70;
+
+text-align: center;
+
+}
+
+.card p{
+
+font-size: 17px;
+
+line-height: 1.6;
+
+text-align: justify;
+
+}
+.body2 {
+    background-image:url("https://images.unsplash.com/photo-1619566636858-adf3ef46400b");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 40px;
+    margin: 20px;
+
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.5);
+    font-family: Arial, sans-serif;
+    background-color:#8cfa05
+
+  
+    color: #ffffff;
+    text-align: center;
+   font-size: 20px;
+   text-shadow: 2px 2px 5px black;
+}
+
+p {
+font-size: 5px;
+line-height: 1.6;
+background-color: rgba(0,0,0,0.5);
+padding: 15px;
+border-radius: 10px;
+
+}
+
+h1 {
+  color: #72169c;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+#beneficios,
+#galeria,
+#curiosidades{
+background: rgba(255,255,255,0.85);
+margin: 40px;
+padding: 30px;
+border-radius: 20px;
+box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
+
+#beneficios img{
+width: 40%;
+border-radius: 15px;
+margin-top: 20px;
+}
+
+.galeria-frutas{
+display: flex;
+gap: 20px;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.galeria-frutas img{
+width: 250px;
+height: 180px;
+object-fit: cover;
+border-radius: 15px;
+transition: 0.4s;
+}
+
+.galeria-frutas img:hover{
+transform: scale(1.05);
+}
+
+#curiosidades ul{
+padding-left: 20px;
+}
+
+#curiosidades li{
+margin: 15px 0;
+font-size: 18px;
+}
+.body3 {
+  background-image: linear-gradient(
+rgba(0,0,0,0.55),
+rgba(0,0,0,0.55)),
+url("https://images.unsplash.com/photo-1471943311424-646960669fbc?q=80&w=1200&auto=format&fit=crop");
+
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+
+color: white;
+font-family: Arial, sans-serif;
+
+padding: 40px;
+margin: 20px;
+
+border-radius: 20px;
+box-shadow: 0px 4px 15px rgb(255, 0, 0,0.5);
+color: #d8ee68;
+font-family: Arial, sans-serif; 
+}
+
+.body4 {
+  background-image: url(" https://images.unsplash.com/photo-1519996529931-28324d5a630e ");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+padding: 40px;
+margin: 20px;
+border-radius: 20px;
+box-shadow: 0px 4px 15px rgba(0,0,0,0.5);
+color: #ffffff;
+font-family: Arial, sans-serif; 
+}
+.body4 p {
+background-color: rgba(0,0,0,0.5);
+padding: 20px;
+border-radius: 15px;
+line-height: 1.9;
+font-size: 20px;
+}
+
+.body4 h1 {
+text-align: center;
+color: white;
+font-size: 40px;
+text-shadow: 2px 2px 5px black;
+}
+
+.body5 {
+background-image: linear-gradient(
+rgba(0,0,0,0.7),
+rgba(0,0,0,0.7)),
+url("https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?q=80&w=1200&auto=format&fit=crop");
+
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+padding: 40px;
+margin: 20px;
+border-radius: 25px;
+box-shadow: 0px 5px 20px rgba(0,0,0,0.6);
+color: white;
+font-family: Arial, sans-serif;
+border: 3px solid orange;
+}
+
+.body5 p {
+background-color: rgba(0,0,0,0.55);
+padding: 20px;
+border-left: 6px solid yellow;
+border-radius: 15px;
+line-height: 1.9;
+font-size: 20px;
+transition: 0.3s;
+}
+
+
+.body5 p:hover {
+transform: scale(1.02);
+background-color: rgba(0,0,0,0.7);
+}
+
+.body5 h1 {
+text-align: center;
+color: white;
+font-size: 42px;
+text-shadow: 3px 3px 8px black;
+letter-spacing: 2px;
+}
+
+
+hr {
+border: 2px solid orange;
+width: 70%;
+border-radius: 10px;
+}
+
+.body6 {
+background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+url("https://images.unsplash.com/photo-1516321318423-f06f85e504b3");
+
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+margin: 20px;
+padding: 20px;
+}
+
+.body6 h1{
+text-align: center;
+color: #ffb347;
+font-size: 38px;
+border-bottom: 2px solid #ffb347;
+padding-bottom: 10px;
+}
+
+.body6 h2{
+color: #ffd700;
+margin-top: 25px;
+}
+
+.body6 p{
+font-size: 18px;
+line-height: 1.7;
+text-align: justify;
+background-color: rgba(0,0,0,0.4);
+padding: 12px;
+border-radius: 10px;
+}
+
+.body6 ol{
+margin-left: 25px;
+background-color: rgba(0,0,0,0.4);
+padding: 15px;
+border-radius: 10px;
+}
+
+.body6 li{
+margin-bottom: 15px;
+font-size: 17px;
+}
+
+.body6 li:hover{
+color: #ffcc70;
+transition: 0.3s;
+}
